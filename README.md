@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# IPO Tracker
+
+A Next.js application that tracks Initial Public Offerings (IPOs) using the Polygon.io API.
+
+## Features
+
+- Real-time IPO data from Polygon.io
+- Beautiful, responsive UI with Tailwind CSS
+- Error handling and loading states
+- Refresh functionality
+
+## API Configuration
+
+This app requires a Polygon.io API key to fetch IPO data. To get started:
+
+1. Sign up for a free account at [Polygon.io](https://polygon.io/)
+2. Get your API key from your dashboard
+3. Create a `.env.local` file in the root directory
+4. Add your API key: `POLYGON_API_KEY=your_api_key_here`
 
 ## Getting Started
 
